@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donación Shalom - Tu Generosidad También Adora</title>
+    <!-- Importar fuente similar a la imagen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --fondo: #F5E6D3;       /* Beige claro de fondo */
+            --cafe-oscuro: #5C3A21; /* Café oscuro del texto principal */
+            --terracota: #A0522D;   /* Terracota para títulos secundarios */
+            --cafe-medio: #7B4B2A;  /* Tono medio para subtítulos */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--fondo);
+            color: var(--cafe-oscuro);
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contenedor {
+            max-width: 600px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.2); /* Sutil para dar profundidad */
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(92, 58, 33, 0.05);
+        }
+
+        /* Sección de texto superior */
+        .seccion-superior {
+            border-bottom: 1px solid rgba(92, 58, 33, 0.2);
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+            text-align: left;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .seccion-superior p {
+            margin-bottom: 15px;
+        }
+
+        .seccion-superior .datos-lista {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            list-style: none;
+        }
+
+        .seccion-superior .datos-lista li {
+            margin-bottom: 5px;
+        }
+
+        .seccion-superior .cita {
+            font-style: italic;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .seccion-superior .firma {
+            text-align: center;
+            font-weight: 700;
+            margin-top: 15px;
+        }
+
+        /* Título principal */
+        .titulo-superior {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            color: var(--terracota);
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .titulo-adora {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            font-weight: 700;
+            letter-spacing: 4px;
+            color: var(--cafe-oscuro);
+            line-height: 1;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        /* Texto descriptivo */
+        .descripcion {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--cafe-medio);
+            margin-bottom: 30px;
+            padding: 0 10px;
+        }
+
+        /* Secciones de datos */
+        .dato-grupo {
+            margin-bottom: 20px;
+        }
+
+        .etiqueta {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1.3rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--cafe-oscuro);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .valor {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 1.2rem;
+            color: var(--cafe-oscuro);
+            word-break: break-all; /* Para que la CLABE no se desborde */
+        }
+
+        .clabe-valor {
+            font-weight: 600;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+        }
+
+        /* Icono final (el pajarito/corazón) */
+        .icono-final {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .icono-final svg {
+            width: 50px;
+            height: 50px;
+            fill: var(--cafe-oscuro);
+        }
+
+        /* Adaptación a móviles */
+        @media (max-width: 480px) {
+            .titulo-adora {
+                font-size: 3.5rem;
+            }
+            .etiqueta {
+                font-size: 1.1rem;
+            }
+            .valor {
+                font-size: 1rem;
+            }
+            .clabe-valor {
+                font-size: 1.1rem;
+            }
+            .descripcion {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <!-- Texto Agregado al Inicio -->
+        <div class="seccion-superior">
+            <p>🤎 <strong>TU GENEROSIDAD TAMBIÉN ADORA</strong> 🤎</p>
+
+            <p>Cada semilla de generosidad contribuye a seguir edificando la casa de Dios. 🙌🏼✨</p>
+
+            <p>Si deseas apoyar la recaudación para nuestro templo, ahora también puedes hacerlo de manera electrónica. Cada aportación es valiosa y nos ayuda a continuar avanzando en este proyecto para la gloria de Dios.</p>
+
+            <ul class="datos-lista">
+                <li>🏦 <strong>Datos para tu donación:</strong></li>
+                <li>🔑 <strong>CLABE:</strong> 722969070936765910</li>
+                <li>👤 <strong>Beneficiario:</strong> Elvia Salgado Rentería</li>
+                <li>🏛️ <strong>Institución:</strong> Mercado Pago W</li>
+                <li>📝 <strong>Concepto:</strong> Donación Shalom</li>
+            </ul>
+
+            <p>Gracias por ser parte de este proyecto y por sembrar con amor en la obra del Señor. ❤️</p>
+
+            <p class="cita">“Dios ama al dador alegre.” — 2 Corintios 9:7 📖</p>
+
+            <p class="firma">Iglesia Shalom Casa de Paz<br>¡Juntos seguimos construyendo! 🙏🏼</p>
+        </div>
+
+        <!-- Encabezado Original -->
+        <div class="titulo-superior">Tu generosidad también</div>
+        <div class="titulo-adora">Adora</div>
+        
+        <!-- Descripción -->
+        <p class="descripcion">
+            Si quieres apoyar la recaudación de dinero para el templo, también puedes hacerlo de manera electrónica.
+        </p>
+
+        <!-- Datos Bancarios -->
+        <div class="dato-grupo">
+            <span class="etiqueta">Clabe</span>
+            <div class="valor clabe-valor">722969070936765910</div>
+        </div>
+
+        <div class="dato-grupo">
+            <span class="etiqueta">Beneficiario</span>
+            <div class="valor">Elvia Salgado Renteria</div>
+        </div>
+
+        <div class="dato-grupo">
+            <span class="etiqueta">Institución</span>
+            <div class="valor">Mercado Pago W</div>
+        </div>
+
+        <div class="dato-grupo">
+            <span class="etiqueta">Concepto</span>
+            <div class="valor">Donación Shalom</div>
+        </div>
+
+        <!-- Icono decorativo -->
+        <div class="icono-final">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+        </div>
+
+    </div>
+
+</body>
+</html>
